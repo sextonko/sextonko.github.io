@@ -1,3 +1,3 @@
-# sextonko.github.io
+# Katherine Sexton | Front End Web Developer
 
-Trying to learn github
+My portfolio site will be here soon!
