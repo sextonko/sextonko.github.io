@@ -7,8 +7,10 @@
 *,*:before,*:after,body,html{margin:0; padding:0}
 body{font-family:Courier,serif;color:#535252;}
 .mega-container{display: flex;justify-content: center;align-items: center;height:100%;width:100%;}
-.colors.main-container{    height: 85vh;display: flex;width: 91vw;margin: 0 auto;background-color: pink;}
+.colors.main-container{height: 85vh;display: flex;width: 91vw;margin: 0 auto;background-color: pink;}
 .home-name{transform: rotate(-90deg);display: block;width: 100%;white-space: nowrap;text-decoration: none;color: grey;}
 .pages{display:block;transform:rotate(90deg)}
 .pages ul{list-style-type: none;white-space: nowrap;}
 .pages li{display:inline-block;}
+
+footer{position:absolute;bottom:2vw;right:2vw;}
