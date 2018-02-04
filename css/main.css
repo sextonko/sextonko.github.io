@@ -12,7 +12,7 @@ body{font-family:Courier,serif;color:#535252;}
 .home-name a{text-decoration: none;color:#535252;}
 .bottom{position:absolute;bottom:2vw;left:2vw; max-width:900px;}
 .bottom h1{font-size: 48px;line-height: 1.5;font-weight: normal;}
-.bottom p{font-size: 36px;line-height: 2;}
+.bottom p{font-size: 30px;line-height: 2;}
 .pages{display:block;transform:rotate(90deg);flex:1;}
 .pages ul{list-style-type: none;white-space: nowrap;}
 .pages li{display:inline-block;}
