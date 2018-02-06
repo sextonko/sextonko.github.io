@@ -7,10 +7,10 @@
 *,*:before,*:after,body,html{margin:0; padding:0}
 body{font-family:Courier,serif;color:#535252;}
 .mega-container{display: flex;justify-content: center;align-items: center;height:100%;width:100%;}
-.colors.main-container{position:relative;height: 87vh;display: flex;width: 89vw;margin: 6vh auto;background-color:#fccfcf;}
+.colors.main-container{position:relative;    height: 78vh;display: flex;width: 86vw;margin: 11vh auto;background-color:#fccfcf;}
 .home-name{width:150px;display: block;white-space: nowrap;text-decoration: none;color: grey;}
 .home-name a{display:block;transform: rotate(-90deg);text-decoration: none;color:#535252;}
-.bottom{position:absolute;bottom:2vw;left:2vw; max-width: 617px;}
+.bottom{position:absolute;bottom:4vw;left:4vw; max-width: 617px;}
 .bottom h1{font-size: 48px;line-height: 1.5;font-weight: normal;}
 .bottom p{font-size: 21px;line-height: 2;}
 .pages{display:block;width:150px;}
