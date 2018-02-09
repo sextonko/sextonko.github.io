@@ -17,7 +17,9 @@ body{font-family:Courier,serif;color:#535252;}
 .pages{display:block;width:150px;font-weight:bold;}
 .pages ul{transform:rotate(90deg);list-style-type: none;white-space: nowrap;}
 .pages li{display:inline-block;padding-right:20px;}
-.pages a{text-decoration:none;}
+.pages li:last-child{padding-right:0;}
+.pages a{text-decoration:none;color: #535252;}
 .otherpages{display:none;}
 
 footer{position:absolute;bottom:2vw;right:2vw;}
+footer a{color: #535252;}
