@@ -5,6 +5,7 @@
 .mint{color:#b0dbd1;}
 /*end colors*/
 *,*:before,*:after,body,html{margin:0; padding:0}
+a{text-decoration:none;outline:none;}
 body{font-family:Courier,serif;color:#535252;}
 .mega-container{display: flex;justify-content: center;align-items: center;height:100%;width:100%;}
 .colors.main-container{position:relative;    height: 78vh;display: flex;width: 86vw;margin: 11vh auto;background-color:#fccfcf;}
@@ -16,6 +17,7 @@ body{font-family:Courier,serif;color:#535252;}
 .pages{display:block;width:150px;font-weight:bold;}
 .pages ul{transform:rotate(90deg);list-style-type: none;white-space: nowrap;}
 .pages li{display:inline-block;padding-right:20px;}
+.pages a{text-decoration:none;}
 .otherpages{display:none;}
 
 footer{position:absolute;bottom:2vw;right:2vw;}
