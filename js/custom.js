@@ -14,8 +14,13 @@ $(document).ready(function() {
           $(this).hide();
           if($(this).attr('id') == id) {
               $(this).show();
+              $(this).parent().toggleClass('blue');
           }
       });
+  });
+
+  $('.otherpages').each(function(){
+
   });
 
 });
