@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*colors*/
 .pink{color:#fccfcf;}
-.blue{background-color:#92a8d1;}
-.mint{background-color:#b0dbd1;}
+.blue{background-color:#92a8d1 !important;}
+.mint{background-color:#b0dbd1 !important;}
 /*end colors*/
 *,*:before,*:after,body,html{margin:0; padding:0}
 a{text-decoration:none;outline:none;}
