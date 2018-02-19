@@ -13,7 +13,7 @@ body{font-family:Courier,serif;color:#535252;}
 .home-name a{font-weight:bold;display:block;transform: rotate(-90deg);text-decoration: none;color:#535252;}
 .bottom{position:absolute;bottom:2vw; left:2vw;max-width: 617px;}
 .bottom h1{font-size: 48px;line-height: 1.5;font-weight: normal;}
-.bottom p{font-size: 21px;line-height: 2;}
+.bottom p{font-size: 21px !important;line-height: 2 !important;}
 .pages{display:block;width:150px;font-weight:bold;}
 .pages ul{transform:rotate(90deg);list-style-type: none;white-space: nowrap;}
 .pages li{display:inline-block;padding-right:20px;}
