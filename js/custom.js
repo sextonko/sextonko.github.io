@@ -21,6 +21,9 @@ $(document).ready(function() {
         } else if ($(this).attr('id') == 'resume') {
           $(this).parent().css({'background-color':'#cec5e0'});
         }
+        else {
+          $(this).parent().css({'background-color':'#fccfcf'});
+        }
       }
     });
   });
