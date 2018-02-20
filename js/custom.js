@@ -15,13 +15,13 @@ $(document).ready(function() {
           if($(this).attr('id') == id) {
               $(this).show();
               if($(this).attr('id') == 'contact') {
-                $(this).parent().toggleClass('blue');
+                $(this).parent().css('background-color':'#92a8d1');
               }
               else if($(this).attr('id') == 'about') {
-                $(this).parent().toggleClass('mint');
+                $(this).parent().css('background-color':'#b0dbd1');
               }
               else if($(this).attr('id') == 'resume') {
-                $(this).parent().toggleClass('blue');
+                $(this).parent().css('background-color':'#88B04B');
               }
           }
       });
