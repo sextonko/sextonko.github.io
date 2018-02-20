@@ -23,5 +23,58 @@ body{font-family:Courier,serif;color:#535252;}
 .otherpages.open{display:flex;}
 .otherpages p{padding-top: 20px;line-height: 1.5;}
 
+/* block reveal test */
+h1 {
+    animation: color 0.5s ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    color: #fff;
+    opacity: 0;
+    font-size: 4rem;
+    font-weight: normal;
+    transform: translateY(-2.3rem);
+}
+
+.block-reveal {
+    height: 10rem;
+    line-height: 10rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 35rem;
+}
+
+.block {
+    animation: reveal 1s ease-in-out;
+    animation-fill-mode: forwards;
+    background: yellow;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+@keyframes reveal {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes color {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
 footer{position:absolute;bottom:2vw;right:2vw;}
 footer a{color: #535252;}
