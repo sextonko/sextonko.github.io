@@ -3,6 +3,7 @@
 .pink{color:#fccfcf;}
 .blue{background-color:#92a8d1 !important;}
 .mint{background-color:#b0dbd1 !important;}
+.violet{background-color:#88B04B !important;}
 /*end colors*/
 *,*:before,*:after,body,html{margin:0; padding:0}
 a{text-decoration:none;outline:none;}
@@ -13,10 +14,10 @@ body{font-family:Courier,serif;color:#535252;}
 .home-name a{font-weight:bold;display:block;transform: rotate(-90deg);text-decoration: none;color:#535252;}
 .bottom{position:absolute;bottom:2vw; left:2vw;max-width: 617px;}
 .bottom h1{font-size: 48px;line-height: 1.5;font-weight: normal;}
-.bottom p{font-size: 21px !important;line-height: 2 !important;}
+.bottom p{font-size: 21px !important;line-height: 2 !important; padding-top:0 !important;}
 .pages{display:block;width:150px;font-weight:bold;}
 .pages ul{transform:rotate(90deg);list-style-type: none;white-space: nowrap;}
-.pages li{display:inline-block;padding-right:20px;}
+.pages li{display:inline-block;padding-right:20px;cursor:pointer;}
 .pages li:last-child{padding-right:0;}
 .pages a{text-decoration:none;color: #535252;}
 .otherpages{display:none;padding: 2vw; overflow: auto; max-width: 600px;}

@@ -14,7 +14,15 @@ $(document).ready(function() {
           $(this).hide();
           if($(this).attr('id') == id) {
               $(this).show();
-              $(this).parent().toggleClass('blue');
+              if($(this).attr('id') == 'contact') {
+                $(this).parent().toggleClass('blue');
+              }
+              else if($(this).attr('id') == 'about') {
+                $(this).parent().toggleClass('mint');
+              }
+              else if($(this).attr('id') == 'resume') {
+                $(this).parent().toggleClass('blue');
+              }
           }
       });
   });
