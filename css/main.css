@@ -23,10 +23,15 @@ body{font-family:Courier,serif;color:#535252;}
 .otherpages.open{display:flex;}
 .otherpages p{padding-top: 20px;line-height: 1.5;}
 
-.bottom h1 {-webkit-animation: color 0.5s ease-in-out;  animation: color 0.5s ease-in-out;-webkit-animation-delay: 0.5s;  animation-delay: 0.5s;  -webkit-animation-fill-mode: forwards;  animation-fill-mode: forwards;  color: #535252;  opacity: 0;font-size: 48px;line-height: 1.5;font-weight: normal;-webkit-transform: translateY(-2.3rem);  transform: translateY(-2.3rem);
+.bottom h1 {-webkit-animation: color 0.5s ease-in-out;  animation: color 0.5s ease-in-out;-webkit-animation-delay: 0.5s;  animation-delay: 0.5s;  -webkit-animation-fill-mode: forwards;  animation-fill-mode: forwards;  color: #535252;  opacity: 0;font-size: 48px;line-height: 3;font-weight: normal;-webkit-transform: translateY(-54px);     transform: translateY(-54px);;
 }
 
-.block-reveal {height: 10rem;line-height: 10rem;overflow: hidden;position: relative;text-align: center;width: 35rem; }
+.block-reveal {height: 35px;
+    line-height: 3;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 600px; }
 
 .block {-webkit-animation: reveal 1s ease-in-out;animation: reveal 1s ease-in-out;-webkit-animation-fill-mode: forwards;animation-fill-mode: forwards;background: #92a8d1;height: 100%;position: absolute;width: 100%;  z-index: 10;
 }
