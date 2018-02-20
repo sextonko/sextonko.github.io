@@ -19,7 +19,7 @@ $(document).ready(function() {
         } else if ($(this).attr('id') == 'about') {
           $(this).parent().css({'background-color':'#b0dbd1'});
         } else if ($(this).attr('id') == 'resume') {
-          $(this).parent().css({'background-color':'#5F4B8B'});
+          $(this).parent().css({'background-color':'#cec5e0'});
         }
       }
     });
