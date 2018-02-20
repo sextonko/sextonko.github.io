@@ -19,8 +19,8 @@ body{font-family:Courier,serif;color:#535252;}
 .pages li{display:inline-block;padding-right:20px;}
 .pages li:last-child{padding-right:0;}
 .pages a{text-decoration:none;color: #535252;cursor:pointer;}
-.otherpages{display:none;padding: 2vw; overflow: auto; max-width: 600px;}
-.otherpages.open{display:block;}
+.otherpages{display:none;padding: 2vw; overflow: auto; max-width: 600px;    align-content: center;flex-direction: column;justify-content: center;}
+.otherpages.open{display:flex;}
 .otherpages p{padding-top: 20px;line-height: 1.5;}
 
 footer{position:absolute;bottom:2vw;right:2vw;}
