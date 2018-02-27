@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
-@media only screen and (min-device-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 
 }
 
-@media only screen and (min-device-width: 1024px){
+@media only screen and (min-width: 1024px){
 
 }
 
-@media only screen and (min-device-width: 768px){
+@media (max-width: 768px){
   .mega-container{flex-direction:column;}
   .home-name{order:1;}
   .home-name a{transform:none;}
