@@ -7,7 +7,7 @@
 /* End Colors */
 
 *,*:before,*:after,body,html{margin:0; padding:0}
-a{text-decoration:none;outline:none;}
+a{text-decoration:none;outline:none;color:#535252;}
 body{font-family:Courier,serif;color:#535252;}
 .mega-container{display: flex;justify-content: center;align-items: center;height:100%;width:100%;}
 .colors.main-container{position:relative; height: 78vh;display: flex;width: 86vw;margin: 11vh auto;background-color:#fccfcf;}
