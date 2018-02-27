@@ -7,7 +7,7 @@ $(document).ready(function() {
     }
   });
 
-  $('a').on("click", function(e) {
+  $('.home-name a, .pages a').on("click", function(e) {
     e.preventDefault();
     var id = $(this).attr('data-related');
     $("div.otherpages").each(function() {
