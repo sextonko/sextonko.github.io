@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media screen and (max-device-width: 1200px) {
+
+}
+
+@media screen and (max-device-width: 1024px){
+
+}
+
+@media screen and (max-device-width: 768px){
+  .mega-container{flex-direction:column;}
+}
