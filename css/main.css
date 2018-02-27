@@ -28,6 +28,7 @@ body{font-family:Courier,serif;color:#535252;}
 /* Block Reveal */
 .bottom h1 {-webkit-animation: color 0.5s ease-in-out;  animation: color 0.5s ease-in-out;-webkit-animation-delay: 0.5s;  animation-delay: 0.5s;  -webkit-animation-fill-mode: forwards;  animation-fill-mode: forwards;  color: #535252;  opacity: 0;font-size: 48px;line-height: 3;font-weight: normal;-webkit-transform: translateY(-54px);transform: translateY(-54px);}
 .block-reveal {height: 48px;line-height: 3;overflow: hidden;position: relative;text-align: left;width: 600px; }
+.block-reveal.int{line-height: 2.25;}
 .block {-webkit-animation: reveal 1s ease-in-out;animation: reveal 1s ease-in-out;-webkit-animation-fill-mode: forwards;animation-fill-mode: forwards;background: #b0dbd1;height: 100%;position: absolute;width: 100%;  z-index: 10;}
 .block.pinkbg{background:#fccfcf;}
 .block.mintbg{background:#b0dbd1}
