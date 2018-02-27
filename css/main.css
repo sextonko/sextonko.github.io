@@ -10,7 +10,7 @@
 a{text-decoration:none;outline:none;color:#535252;}
 body{font-family:Courier,serif;color:#535252;}
 .mega-container{display: flex;justify-content: center;align-items: center;height:100%;width:100%;}
-.colors.main-container{position:relative; height: 78vh;display: flex;width: 86vw;margin: 11vh auto;background-color:#fccfcf;}
+.colors.main-container{position:relative; height: 78vh;display: flex;width: 86vw;margin: 11vh auto;background-color:#fccfcf;overflow-x:hidden;}
 .home-name{width:150px;display: block;white-space: nowrap;text-decoration: none;color: grey;}
 .home-name a{font-weight:bold;display:block;transform: rotate(-90deg);text-decoration: none;color:#535252;}
 .bottom{position:absolute;bottom:2vw; left:2vw;max-width: 617px; width:100%;}
