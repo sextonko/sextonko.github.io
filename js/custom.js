@@ -35,8 +35,4 @@ $(document).ready(function() {
     });
   });
 
-  $('.otherpages').each(function() {
-
-  });
-
 });

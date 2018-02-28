@@ -8,7 +8,7 @@
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 786px){
   .mega-container{flex-direction:column;overflow-x:hidden;}
   .home-name{order:1;padding:20px;}
   .home-name a{transform:none;}
