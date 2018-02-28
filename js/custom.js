@@ -16,7 +16,7 @@ $(document).ready(function() {
         $(this).show();
         if ($(this).attr('id') == 'contact') {
           $(this).parent().css({
-            'background-color': '#92a8d1'
+            'background-color': '#c0d2f5'
           });
         } else if ($(this).attr('id') == 'about') {
           $(this).parent().css({
