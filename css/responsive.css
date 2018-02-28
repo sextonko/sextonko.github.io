@@ -12,8 +12,14 @@
   .mega-container{flex-direction:column;overflow-x:hidden;}
   .home-name{order:1;padding:20px;}
   .home-name a{transform:none;}
+  .desk{display:none;}
+  .mobile{display:block;}
   .pages{order:2;padding-bottom:20px;}
   .pages ul{transform:none;}
   .colors.main-container{order:3;width:100%;margin:0 auto;}
-
+  .block-reveal{width:350px;}
+  footer{width:100%;left:0;bottom:0;right:0;background-color:#FFF;}
+  .social{    position: relative;
+    text-align: right;
+    padding: 20px;}
 }
